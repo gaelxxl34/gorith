@@ -24,5 +24,12 @@ public class gorith
             }
         }
         System.out.println(pr);
+        System.out.println("the crisis of check is: " + crisis());
+    }
+    public static int crisis()
+    {
+        int check = 21 - 10;
+        return check;
+
     }
 }
