@@ -25,11 +25,16 @@ public class gorith
         }
         System.out.println(pr);
         System.out.println("the crisis of check is: " + crisis());
+        System.out.println(volcan("mikeno", "nyiragongo"));
     }
     public static int crisis()
     {
         int check = 21 - 10;
         return check;
+    }
+    public static String volcan (String first, String second)
+    {
+        return first + " another one is: " + second;
 
     }
 }
