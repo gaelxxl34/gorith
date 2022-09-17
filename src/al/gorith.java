@@ -2,7 +2,7 @@ package al;
 
 import java.util.Scanner;
 
-public class gorith
+public abstract class gorith
 {
     public static void main(String[] args)
     {
@@ -37,4 +37,9 @@ public class gorith
         return first + " another one is: " + second;
 
     }
+
+    public String fname = "John";
+    public int age = 24;
+    public abstract void study(); // abstract method
 }
+
