@@ -23,6 +23,7 @@ public abstract class gorith
 
             }
         }
+        System.out.println("this is just amazing");
         System.out.println(pr);
         System.out.println("the crisis of check is: " + crisis());
         System.out.println(volcan("mikeno", "nyiragongo"));
